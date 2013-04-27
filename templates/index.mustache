@@ -1,0 +1,69 @@
+{{> header }}
+
+<div class="content"> 
+    <div class="gallery_nav">
+        <div class="dark_grey_button" onClick="goto('.page_one',this); return false;"></div>
+        <div class="light_grey_button" onClick="goto('.page_two',this); return false;"></div>
+    </div>
+    <div class="pages_wrapper">
+        <div class="page_one page_box">
+            <ul class="featured">
+                {{#featured_one}}
+                    <li>
+                        <img src="{{image}}" />
+                        <h5>{{name}}</h5>
+                        <ul class="featured_categories">
+                            {{#categories}}
+                                <li>{{name}}</li>
+                            {{/categories}}
+                        </ul>
+                    </li>
+                {{/featured_one}}
+            </ul>
+            <ul class="featured">
+                {{#featured_two}}
+                    <li>
+                        <img src="{{image}}" />
+                        <h5>{{name}}</h5>
+                        <ul class="featured_categories">
+                            {{#categories}}
+                                <li>{{name}}</li>
+                            {{/categories}}
+                        </ul>
+                    </li>
+                {{/featured_two}}
+            </ul>
+        </div>
+        <div class="page_two page_box">
+            <ul class="featured">
+                {{#featured_three}}
+                    <li>
+                        <img src="{{image}}" />
+                        <h5>{{name}}</h5>
+                        <ul class="featured_categories">
+                            {{#categories}}
+                                <li>{{name}}</li>
+                            {{/categories}}
+                        </ul>
+                    </li>
+                {{/featured_three}}
+            </ul>
+            <ul class="featured">
+                {{#featured_four}}
+                    <li>
+                        <img src="{{image}}" />
+                        <h5>{{name}}</h5>
+                        <ul class="featured_categories">
+                            {{#categories}}
+                                <li>{{name}}</li>
+                            {{/categories}}
+                        </ul>
+                    </li>
+                {{/featured_four}}
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{> footer }}
+

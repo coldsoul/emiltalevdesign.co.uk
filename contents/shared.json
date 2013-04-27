@@ -1,6 +1,6 @@
 {
-	"site-title": "Welcome!",
-	"footer-text": "Built with <a href=\"http://laktek.github.com/punch\">Punch</a>",
-	"navbar": [
-	]
+	"site-title": "Emil Talev Design",
+    "copy_rights": "&copy; 2007-13 Emil Talev Design",
+    "logo": "/img/et_logo_web.png",
+    "header_img": "/img/et_name_header.png"
 }

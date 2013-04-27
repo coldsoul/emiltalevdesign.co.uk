@@ -1,3 +1,202 @@
 {
-	"intro": "This is just a placeholder."
+	"featured_one": [
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        }
+    ],
+    "featured_two": [
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        }
+    ],
+    "featured_three": [
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        }
+    ],
+    "featured_four": [
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/home_gallery_placeholder.jpg",
+            "categories": [
+                {
+                    "name":"Branding"
+                },
+                {
+                    "name":"Identity"
+                }
+            ]
+        }
+    ]
 }
