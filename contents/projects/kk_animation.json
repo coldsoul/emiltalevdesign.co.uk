@@ -1,0 +1,15 @@
+{
+    "name": "Krispy Kreme Animation",
+    "images": [
+        {
+            "image" : "/img/proj7_img1.jpg"
+        },
+        {
+            "image" : "/img/proj7_img2.jpg"
+        }
+    ],
+    "description":"Creating web banners, image assets and animated Flash banners for well-known brands.",
+        "proj_components": [
+       
+    ]
+}

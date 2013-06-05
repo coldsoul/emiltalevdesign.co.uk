@@ -1,0 +1,35 @@
+{
+    "name": "Diamdel",
+    "images": [
+        {
+            "image" : "/img/proj8_img1.jpg"
+        },
+        {
+            "image" : "/img/proj8_img2.jpg"
+        }        
+    ],
+    "description":"Worked on a range of branding and print projects for Diamdel, the pioneer and world leader in the online auctioning of rough diamonds. The work included projects for the company’s London team and its overseas offices.",
+    "proj_components": [
+        {
+            "name":"Logo"
+        },
+        {
+            "name":"Stationery"
+        },
+        {
+            "name":"Word & PowerPoint templates"
+        },
+        {
+            "name":"Staff guides"
+        },
+        {
+            "name":"Magazine adverts"
+        },
+        {
+            "name":"Web assets"
+        },
+        {
+            "name":"Other print collateral"
+        }
+    ]
+}

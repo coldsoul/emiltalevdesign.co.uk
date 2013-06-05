@@ -1,0 +1,36 @@
+{
+    "image" : "img/et_website_client_logos.jpg",
+    "about" : "About text",
+    "expertise_one" : [
+        {
+            "name":"branding"
+        },
+        {
+            "name":"print"
+        }
+    ],
+    "expertise_two": [
+        {
+            "name":"web"
+        },
+        {
+            "name":"digital"
+        }
+    ],
+    "clients_one": [
+        {
+            "name":"advertising"
+        },
+        {
+            "name":"typography"
+        }
+    ],
+    "clients_two": [
+        {
+            "name": "something"
+        },
+        {
+            "name":"something else"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Falcon Scott Web Designs",
+    "images": [
+        {
+            "image" : "/img/proj5_img1.jpg"
+        },
+        {
+            "image" : "/img/proj5_img2.jpg"
+        }
+        ,
+        {
+            "image" : "/img/proj5_img3.jpg"
+        },
+        {
+            "image" : "/img/proj5_img4.jpg"
+        }
+    ],
+    "description":"Front-end web design for a diverse range of clients. Projects involved designs from scratch or re-designing existing sites, while liaising with developers about functionality and limitations.",
+        "proj_components": [
+        
+    ]
+}

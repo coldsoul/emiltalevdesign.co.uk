@@ -1,0 +1,42 @@
+{{> header }}
+{{> heading }}
+<div class="content">
+ <div class="about_image">
+       <img src="{{ image }}" />
+ </div>
+ <div class="about_side" />
+    <div class="about_name">
+        <h3> ABOUT </h3>
+    </div>
+    <div class="description" />
+        <span> {{ about }} </span>
+    </div>
+    <div class="expertise">
+        <h4> EXPERTISE </h4>
+        <ul class="ex_one">
+        {{#expertise_one}}
+            <li>{{name}}</li>
+        {{/expertise_one}}
+        </ul>
+        <ul class="ex_two">
+        {{#expertise_two}}
+            <li>{{name}}</li>
+        {{/expertise_two}}
+        </ul>
+    </div>
+    <div class="clients">
+        <h4> CLIENTS </h4>
+        <ul class="ex_one">
+        {{#clients_one}}
+            <li>{{name}}</li>
+        {{/clients_one}}
+        </ul>
+        <ul class="ex_two">
+        {{#clients_two}}
+            <li>{{name}}</li>
+        {{/clients_two}}
+        </ul>
+    </div>
+ </div>
+</div>
+{{> footer }}

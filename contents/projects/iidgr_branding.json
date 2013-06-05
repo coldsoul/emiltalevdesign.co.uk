@@ -1,0 +1,29 @@
+{
+    "name": "IIDGR Branding",
+    "images": [
+        {
+            "image" : "/img/proj3_img1.jpg"
+        },
+        {
+            "image" : "/img/proj3_img2.jpg"
+        }
+        ,{
+            "image" : "/img/proj3_img3.jpg"
+        }
+    ],
+    "description":"Creating an identity for an Antwerp-based diamond grading institute, part of the De Beers Group of Companies. The project involved research and positioning of the brand in relation to its competitors and other De Beers Group brands at the initial stage. Ongoing communication with the client helped for feedback to be quickly incorporated at the conceptual and production stages.",
+    "proj_components": [
+        {
+            "name":"Visual identity"
+        },
+        {
+            "name":"Brand guidelines"
+        },
+        {
+            "name":"Stationary"
+        },
+        {
+            "name":"MS Office templates"
+        }
+    ]
+}

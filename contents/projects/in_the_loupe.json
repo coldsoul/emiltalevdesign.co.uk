@@ -1,0 +1,24 @@
+{
+    "name": "In the Loupe",
+    "images": [
+        {
+            "image" : "/img/proj6_img1.jpg"
+        },
+        {
+            "image" : "/img/proj6_img2.jpg"
+        }
+        ,
+        {
+            "image" : "/img/proj6_img3.jpg"
+        },
+        {
+            "image" : "/img/proj6_img4.jpg"
+        }
+    ],
+    "description":"Designed and managed the production of a monthly corporate magazine. Developed the layout and look and feel of the magazine from issue to issue.",
+        "proj_components": [
+        {
+            "name":"Mothly magazine design"
+        }
+    ]
+}

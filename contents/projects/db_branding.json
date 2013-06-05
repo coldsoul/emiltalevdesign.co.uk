@@ -1,0 +1,48 @@
+{
+    "name": "De Beers Branding",
+    "images": [
+        {
+            "image" : "/img/proj9_img1.jpg"
+        },
+        {
+            "image" : "/img/proj9_img2.jpg"
+        }        ,
+        {
+            "image" : "/img/proj9_img3.jpg"
+        },
+        {
+            "image" : "/img/proj9_img4.jpg"
+        },
+        {
+            "image" : "/img/proj9_img5.jpg"
+        },
+        {
+            "image" : "/img/proj9_img6.jpg"
+        }
+
+    ],
+    "description":"The vision for the De Beers re-branding was for its identity to reflect more closely its core activity as the world’s largest diamond mining company. Working on-site with a brand manager, I had input in all key project areas and was in charge of designing and updating all relevant company collateral and brand guidelines.",
+        "proj_components": [
+        {
+            "name":"Brand guidelines book"
+        },
+        {
+            "name":"New corporate typefaces"
+        },
+        {
+            "name":"Colour scheme update"
+        },
+        {
+            "name":"Stationery & usage guidelines"
+        },
+        {
+            "name":"Word & PowerPoint templates"
+        },
+        {
+            "name":"Company seal update"
+        },
+        {
+            "name":"Other print collateral"
+        }
+    ]
+}

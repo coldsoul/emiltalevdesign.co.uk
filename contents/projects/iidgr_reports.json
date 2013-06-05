@@ -1,0 +1,23 @@
+{
+    "name": "IIDGR Reports",
+    "images": [
+        {
+            "image" : "/img/proj1_img1.jpg"
+        },
+        {
+            "image" : "/img/proj1_img2.jpg"
+        }
+        ,{
+            "image" : "/img/proj1_img3.jpg"
+        }
+    ],
+    "description":"IIDGR, part of the De Beers Group of Companies, issues reports to its customers after grading their diamonds. This makes the grading report the brand’s most important piece of communication. Competition, industry standards, technical limitations and feedback from clients, stakeholders and focus groups were taken into account while developing the design solution. Two report designs were developed for use in different circumstances.",
+    "proj_components": [
+        {
+            "name":"Diamond grading report"
+        },
+        {
+            "name":"Diamond identification report"
+        }
+    ]
+}

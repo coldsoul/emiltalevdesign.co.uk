@@ -1,0 +1,56 @@
+{
+    "name": "Clean Air London",
+    "images": [
+        {
+            "image" : "/img/proj10_img1.jpg"
+        },
+        {
+            "image" : "/img/proj10_img2.jpg"
+        },
+        {
+            "image" : "/img/proj10_img3.jpg"
+        },
+        {
+            "image" : "/img/proj10_img4.jpg"
+        },
+        {
+            "image" : "/img/proj10_img5.jpg"
+        },
+        {
+            "image" : "/img/proj10_img6.jpg"
+        },
+        {
+            "image" : "/img/proj10_img7.jpg"
+        },
+        {
+            "image" : "/img/proj10_img8.jpg"
+        }
+    ],
+    "description":"A campaign to raise awareness of London’s serious air pollution problems. Includes identification of the issues, research and a multi-channel campaign as a response.",
+        "proj_components": [
+        {
+            "name":"Campaign Identity"
+        },
+        {
+            "name":"Bus stop signs"
+        },
+        {
+            "name":"Bus panels"
+        },
+        {
+            "name":"Tube train panels"
+        },
+        {
+            "name":"Posters & leaflets"
+        },
+        {
+            "name":"Campaign website"
+        },
+        {
+            "name":"Social media pages"
+        },
+        {
+            "name":"Presentation book"
+        }
+    ]
+}

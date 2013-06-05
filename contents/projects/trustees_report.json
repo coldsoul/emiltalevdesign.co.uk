@@ -1,0 +1,22 @@
+{
+    "name": "Trustees Annual Report",
+    "images": [
+        {
+            "image" : "/img/proj2_img1.jpg"
+        },
+        {
+            "image" : "/img/proj2_img2.jpg"
+        }
+        ,
+        {
+            "image" : "/img/proj2_img3.jpg"
+        },
+        {
+            "image" : "/img/proj2_img4.jpg"
+        }
+    ],
+    "description":"Redesigned the annual report and related documentation for the pension scheme trustees of DTC, the rough diamond distribution arm of De Beers, and the world’s largest supplier of rough diamonds. While working within brand guidelines, the brief was sufficiently open to allow for more creative use of imagery.",
+    "proj_components": [
+        
+    ]
+}
