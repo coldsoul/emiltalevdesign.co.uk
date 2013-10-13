@@ -1,5 +1,7 @@
 {
     "name": "De Beers Branding",
+    "prev": "wars_of_fortune.html",
+    "next": "trustees_report.html",
     "images": [
         {
             "image" : "/img/proj9_img1.jpg"
@@ -21,7 +23,14 @@
         }
 
     ],
-    "description":"The vision for the De Beers re-branding was for its identity to reflect more closely its core activity as the world’s largest diamond mining company. Working on-site with a brand manager, I had input in all key project areas and was in charge of designing and updating all relevant company collateral and brand guidelines.",
+    "description":[
+        {
+            "paragraph" : "The vision for the De Beers re-branding was for its identity to reflect more closely its core activity as the world’s largest diamond mining company."
+        },
+        {
+            "paragraph" : "Working on-site with a brand manager, I had input in all key project areas and was in charge of designing and updating all relevant company collateral and brand guidelines."
+        }
+    ],
         "proj_components": [
         {
             "name":"Brand guidelines book"
@@ -43,6 +52,53 @@
         },
         {
             "name":"Other print collateral"
+        }
+    ],
+    "other_projects": [
+        {
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html"
+        },
+        {
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html"
+        },
+        {
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html",
+            "current": "current_proj"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html"
         }
     ]
 }

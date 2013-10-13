@@ -1,5 +1,7 @@
 {
     "name": "Falcon Scott Web Designs",
+    "prev": "clean_air_london.html",
+    "next": "open_can.html",
     "images": [
         {
             "image" : "/img/proj5_img1.jpg"
@@ -15,8 +17,64 @@
             "image" : "/img/proj5_img4.jpg"
         }
     ],
-    "description":"Front-end web design for a diverse range of clients. Projects involved designs from scratch or re-designing existing sites, while liaising with developers about functionality and limitations.",
+    "description":[
+        {
+            "paragraph" : "Front-end web design for a diverse range of clients."
+        },
+        {
+            "paragraph" : "Projects involved designs from scratch or re-designing existing sites, while liaising with developers about functionality and limitations."
+        }
+    ],
         "proj_components": [
-        
+            {
+                "name" : "Front-end web design"
+            }
+    ],
+    "other_projects": [
+        {
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html"
+        },
+        {
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html"
+        },
+        {
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html",
+            "current": "current_proj"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html"
+        }
     ]
 }

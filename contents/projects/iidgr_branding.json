@@ -11,7 +11,20 @@
             "image" : "/img/proj3_img3.jpg"
         }
     ],
-    "description":"Creating an identity for an Antwerp-based diamond grading institute, part of the De Beers Group of Companies. The project involved research and positioning of the brand in relation to its competitors and other De Beers Group brands at the initial stage. Ongoing communication with the client helped for feedback to be quickly incorporated at the conceptual and production stages.",
+    "prev": "in_the_loupe.html",
+    "next": "iidgr_reports.html",
+
+    "description":[
+        {
+            "paragraph" : "Creating an identity for The International Institute of Diamond Grading & Research, part of the De Beers Group of Companies."
+        },
+        {
+            "paragraph" : "The project involved research and positioning of the brand in relation to its competitors and other De Beers Group brands at the initial stage."
+        },
+        {
+            "paragraph" : "Ongoing communication with the client helped for feedback to be quickly incorporated at the conceptual and production stages."
+        }
+    ],
     "proj_components": [
         {
             "name":"Visual identity"
@@ -20,10 +33,57 @@
             "name":"Brand guidelines"
         },
         {
-            "name":"Stationary"
+            "name":"Stationery"
         },
         {
             "name":"MS Office templates"
+        }
+    ],
+    "other_projects": [
+        {
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html",
+            "current": "current_proj"
+        },
+        {
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html"
+        },
+        {
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html"
         }
     ]
 }

@@ -12,51 +12,77 @@
 
 			<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-			<link rel="stylesheet" type="text/css" media="screen" href="/css/all-1370472101000.css"> 
+			<link rel="stylesheet" type="text/css" media="screen" href="/css/all-1370789715000.css"> 
     </head>
 
     <body>
-
-<header>
-    <ul class="header">
-        <li><img src="&#x2F;img&#x2F;et_logo_web.png"/></li>
-        <li><img src="&#x2F;img&#x2F;et_name_header.png"/></li>
-        <li><a href="index.html" class="current" />WORK</a></li>
-        <li><a href="about.html" />ABOUT</a></li>
-        <li><a href="" />CONTACT</a></li>
+<div class="contact">
+    <ul>
+        <li><img src="img/email_icon.png"/><span> contact [at] emiltalevdesign.co.uk </span></li>
+        <li><img src="img/phone_icon.png"/><span> +44 (0)7726 150137 </span></li>
+        <li><img src="img/skype_icon.png"/><span> etdesign_london </span></li>
+        <li><img src="img/linkedin_icon.png"/><a href="http://uk.linkedin.com/pub/emil-talev/1a/116/500/" target="_blank"><span> LinkedIn</span></a></li>
     </ul>
-</header><div class="content">
+</div><header>
+    <ul class="header">
+        <li><a href="../index.html"><img src="&#x2F;img&#x2F;et_logo_web.png"/></a></li>
+        <li><img src="&#x2F;img&#x2F;et_name_header.png"/></li>
+        <li><a href="index.html" />WORK</a></li>
+        <li><a href="about.html" class="current" />ABOUT</a></li>
+        <li><a href="#" id="contact" />CONTACT</a></li>
+    </ul>
+</header>
+<div class="about_content">
  <div class="about_image">
        <img src="img&#x2F;et_website_client_logos.jpg" />
  </div>
  <div class="about_side" />
     <div class="about_name">
-        <h3> ABOUT </h3>
+        <h4> ABOUT EMIL</h4>
     </div>
     <div class="description" />
-        <span> About text </span>
+            <p>I am an all-round creative designer with more than seven years experience across diverse design disciplines in both freelance and in-house roles.</p>
+            <p>I have worked with a variety of corporate, luxury, beauty, media, gaming, FMCG and public sector clients. My main specialisms are branding, graphic design and artworking, art direction, digital design (web&#x2F;mobile&#x2F;concepts).</p>
+            <p>Get in touch for more information or to discuss your design requirements.</p>
     </div>
     <div class="expertise">
         <h4> EXPERTISE </h4>
         <ul class="ex_one">
-            <li>branding</li>
-            <li>print</li>
+            <li>Branding</li>
+            <li>Identity</li>
+            <li>Print</li>
+            <li>Web &amp; Digital</li>
+            <li>Packaging</li>
+            <li>Illustration</li>
         </ul>
         <ul class="ex_two">
-            <li>web</li>
-            <li>digital</li>
+            <li>Art Direction</li>
+            <li>Typography</li>
+            <li>Advertising</li>
+            <li>Mobile</li>
+            <li>Photography</li>
+            <li>Animation</li>
         </ul>
+        <div class="clear"></div>
     </div>
     <div class="clients">
-        <h4> CLIENTS </h4>
+        <h4> BRANDS I HAVE WORKED FOR </h4>
         <ul class="ex_one">
-            <li>advertising</li>
-            <li>typography</li>
+            <li>De Beers</li>
+            <li>Forevermark</li>
+            <li>The Diamond Trading Company</li>
+            <li>Diamdel</li>
+            <li>Falcon Scott</li>
+            <li>Omorovicza Cosmetics</li>
         </ul>
         <ul class="ex_two">
-            <li>something</li>
-            <li>something else</li>
+            <li>London Borough of Hounslow</li>
+            <li>Hounslow Homes</li>
+            <li>IIDGR</li>
+            <li>World SunCare Products</li>
+            <li>Wars of Fortune</li>
         </ul>
+        <div class="clear"></div>
     </div>
  </div>
 </div>
@@ -66,8 +92,32 @@
 
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 		    <script>
-                function goto(cl, t) {
-                    $('.pages_wrapper').animate({"left":-($(cl).position().left)}, 400);
+                $(document).ready(function(){
+                    $('#first_page').live("click",function(){
+                        $('.pages_wrapper').animate({"left":-($('.page_one').position().left)}, 400);
+                        $('#one_dark').toggle();
+                        $('#one_light').toggle();
+                        $('#two_dark').toggle();
+                        $('#two_light').toggle();
+                    });
+                    $('#second_page').live("click", function(){
+                        $('.pages_wrapper').animate({"left":-($('.page_two').
+                            position().left)}, 400);
+                        $('#one_dark').toggle();
+                        $('#one_light').toggle();
+                        $('#two_dark').toggle();
+                        $('#two_light').toggle();
+                    });
+                    $('#contact').click(contact);
+                });
+                
+                function contact() {
+                    $('.contact').toggle();
+                    if(!$('.contact').is(':visible')) {
+                        $('#contact').css("color","#959595");
+                    } else {
+                        $('#contact').css("color","black");
+                    }
                 }
             </script>
 		</body>

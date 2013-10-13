@@ -1,6 +1,6 @@
 {{> header }}
 {{> heading }}
-<div class="content">
+<div class="about_content">
  <div class="proj_image">
     {{#images}}
        <img src="{{ image }}" />
@@ -10,9 +10,18 @@
     <div class="proj_name">
         <h3> {{ name }} </h3>
     </div>
+    <ul class="nav_list">
+        <li><a href="{{prev}}">PREVIOUS</a></li>
+        <li>|</li>
+        <li><a href="{{next}}">NEXT</a></li>
+        <li>|</li>
+        <li><a href="../index.html">BACK TO GALLERY</a></li>
+    </ul>
     <div class="description" />
         <h4> DESCRIPTION </h4>
-        <span> {{ description }} </span>
+        {{#description}}
+            <p> {{ paragraph }} </p>
+        {{/description}}
     </div>
     <div class="components">
         <h4> PROJECT COMPONENTS </h4>
@@ -23,10 +32,18 @@
         </ul>
     </div>
     <div class="proj_navigation">
-        <ul>
-            <li>HOME</li>
-            <li> &lt;PREVIOUS </li>
-            <li> NEXT&gt; </li>
+        <h4>OTHER PROJECTS</h4>
+        <ul class="nav_list">
+            <li><a href="{{prev}}">PREVIOUS</a></li>
+            <li>|</li>
+            <li><a href="{{next}}">NEXT</a></li>
+            <li>|</li>
+            <li><a href="../index.html">BACK TO GALLERY</a></li>
+        </ul>
+        <ul class="other_projects">
+            {{#other_projects}}
+                <li class="{{current}}"><a href="{{link}}">{{name}}</a></li>
+            {{/other_projects}}
         </ul>
     </div>
  </div>

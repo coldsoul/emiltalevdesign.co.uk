@@ -1,37 +1,11 @@
 {
 	"featured_one": [
         {
-            "name": "IIDGR Reports",
-            "image": "/img/gallery_images_pr1.jpg",
-            "categories": [
-                {
-                    "name":"Reports"
-                },
-                {
-                    "name":"Branding"
-                }
-            ],
-            "project_link":"projects/iidgr_reports.html"
-        },
-        {
-            "name": "Trustees Annual Report",
-            "image": "/img/gallery_images_pr2.jpg",
-            "categories": [
-                {
-                    "name":"Reports"
-                },
-                {
-                    "name":"Corporate Comms"
-                }
-            ],
-            "project_link":"projects/trustees_report.html"
-        },
-        {
             "name": "IIDGR Branding",
             "image": "/img/gallery_images_pr3.jpg",
             "categories": [
                 {
-                    "name":"Identity"
+                    "name":"Identity,"
                 },
                 {
                     "name":"Branding"
@@ -40,20 +14,31 @@
             "project_link":"projects/iidgr_branding.html"
         },
         {
-            "name": "Open Can",
-            "image": "/img/gallery_images_pr4.jpg",
+            "name": "IIDGR Reports",
+            "image": "/img/gallery_images_pr1.jpg",
             "categories": [
                 {
-                    "name":"Campaign"
+                    "name":"Reports,"
+                },
+                {
+                    "name":"Branding"
+                }
+            ],
+            "project_link":"projects/iidgr_reports.html"
+        },
+        {
+            "name": "Clean Air London",
+            "image": "/img/gallery_images_pr10.jpg",
+            "categories": [
+                {
+                    "name":"Campaign,"
                 },
                 {
                     "name":"Identity"
                 }
             ],
-            "project_link":"projects/open_can.html"
-        }
-    ],
-    "featured_two": [
+            "project_link":"projects/clean_air_london.html"
+        },
         {
             "name": "Falcon Scott Web Designs",
             "image": "/img/gallery_images_pr5.jpg",
@@ -63,23 +48,69 @@
                 }
             ],
             "project_link":"projects/fs_web_designs.html"
-        },
+        }
+    ],
+    "featured_two": [
         {
-            "name": "In the Loupe",
-            "image": "/img/gallery_images_pr6.jpg",
+            "name": "Open Can",
+            "image": "/img/gallery_images_pr4.jpg",
             "categories": [
                 {
-                    "name":"Magazine design"
+                    "name":"Campaign,"
+                },
+                {
+                    "name":"Identity"
                 }
             ],
-            "project_link":"projects/in_the_loupe.html"
+            "project_link":"projects/open_can.html"
+        },  
+        {
+            "name": "Wars of Fortune",
+            "image": "/img/gallery_images_pr11.jpg",
+            "categories": [
+                {
+                    "name":"Mobile app,"
+                },
+                {
+                    "name":"Digital"
+                }
+            ],
+            "project_link":"projects/wars_of_fortune.html"
         },
+        {
+            "name": "De Beers Branding",
+            "image": "/img/gallery_images_pr9.jpg",
+            "categories": [
+                {
+                    "name":"Identity,"
+                },
+                {
+                    "name":"Branding"
+                }
+            ],
+            "project_link":"projects/db_branding.html"
+        },      
+        {
+            "name": "Trustees Annual Report",
+            "image": "/img/gallery_images_pr2.jpg",
+            "categories": [
+                {
+                    "name":"Reports,"
+                },
+                {
+                    "name":"Corporate Comms"
+                }
+            ],
+            "project_link":"projects/trustees_report.html"
+        }
+    ],
+    "featured_three": [
         {
             "name": "Krispy Kreme Animation",
             "image": "/img/gallery_images_pr7.jpg",
             "categories": [
                 {
-                    "name":"Flash"
+                    "name":"Flash,"
                 },
                 {
                     "name":"Digital"
@@ -92,54 +123,23 @@
             "image": "/img/gallery_images_pr8.jpg",
             "categories": [
                 {
-                    "name":"Print"
+                    "name":"Print,"
                 },
                 {
                     "name":"Branding"
                 }
             ],
             "project_link":"projects/diamdel.html"
-        }
-    ],
-    "featured_three": [
-        {
-            "name": "De Beers Branding",
-            "image": "/img/gallery_images_pr9.jpg",
-            "categories": [
-                {
-                    "name":"Identity"
-                },
-                {
-                    "name":"Branding"
-                }
-            ],
-            "project_link":"projects/db_branding.html"
         },
         {
-            "name": "Clean Air London",
-            "image": "/img/gallery_images_pr10.jpg",
+            "name": "In the Loupe",
+            "image": "/img/gallery_images_pr6.jpg",
             "categories": [
                 {
-                    "name":"Campaign"
-                },
-                {
-                    "name":"Identity"
+                    "name":"Magazine design"
                 }
             ],
-            "project_link":"projects/clean_air_london.html"
-        },
-        {
-            "name": "Wars of Fortune",
-            "image": "/img/gallery_images_pr11.jpg",
-            "categories": [
-                {
-                    "name":"Mobile app"
-                },
-                {
-                    "name":"Digital"
-                }
-            ],
-            "project_link":"projects/wars_of_fortune.html"
+            "project_link":"projects/in_the_loupe.html"
         }
     ]
 }

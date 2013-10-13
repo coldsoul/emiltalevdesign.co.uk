@@ -1,5 +1,7 @@
 {
     "name": "In the Loupe",
+    "prev": "diamdel.html",
+    "next": "iidgr_branding.html",
     "images": [
         {
             "image" : "/img/proj6_img1.jpg"
@@ -15,10 +17,64 @@
             "image" : "/img/proj6_img4.jpg"
         }
     ],
-    "description":"Designed and managed the production of a monthly corporate magazine. Developed the layout and look and feel of the magazine from issue to issue.",
+    "description":[
+        {
+            "paragraph" : "Designed and managed the production of a monthly corporate magazine."
+        },
+        {
+            "paragraph" : "Developed the layout and look and feel of the magazine from issue to issue."
+        }
+    ],
         "proj_components": [
         {
             "name":"Mothly magazine design"
+        }
+    ],
+    "other_projects": [
+        {
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html"
+        },
+        {
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html"
+        },
+        {
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html",
+            "current": "current_proj"
         }
     ]
 }

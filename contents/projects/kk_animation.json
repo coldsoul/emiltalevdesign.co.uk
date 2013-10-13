@@ -1,5 +1,7 @@
 {
     "name": "Krispy Kreme Animation",
+    "prev": "trustees_report.html",
+    "next": "diamdel.html",
     "images": [
         {
             "image" : "/img/proj7_img1.jpg"
@@ -8,8 +10,61 @@
             "image" : "/img/proj7_img2.jpg"
         }
     ],
-    "description":"Creating web banners, image assets and animated Flash banners for well-known brands.",
+    "description":[
+        {
+            "paragraph" : "Series of three animated Flash adverts for the Krispy Kreme Doughnuts website, running as part of Krispy Kreme’s ‘Think Inside the Box’ campaign."
+        }
+    ],
         "proj_components": [
-       
+        {
+            "name":"Animated flash adverts"
+        }
+    ],
+    "other_projects": [
+        {
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html"
+        },
+        {
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html"
+        },
+        {
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html",
+            "current": "current_proj"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html"
+        }
     ]
 }

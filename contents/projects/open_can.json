@@ -1,5 +1,7 @@
 {
     "name": "Open Can",
+    "prev": "fs_web_designs.html",
+    "next": "wars_of_fortune.html",
     "images": [
         {
             "image" : "/img/proj4_img1.jpg"
@@ -11,19 +13,76 @@
             "image" : "/img/proj4_img3.jpg"
         }
     ],
-    "description":"The project was a conceptual campaign on a topic set by the RSA – in this case to highlight the advantages of the humble tin can and other metal packaging. After conducting extensive research into the topic, the design solution was a multichannel campaign with ambient as the main channel. The campaign’s aim was to educate about and encourage the use of metal cans due to their advantages in key areas like sustainability, convenience, reliability and nutrition.",
+    "description":[
+        {
+            "paragraph" : "The project was a conceptual campaign on a topic set by the Royal Society of Arts – in this case to highlight the advantages of the humble tin can and other metal packaging."
+        },
+        {
+            "paragraph" : "After conducting extensive research into the topic, the design solution was a multichannel campaign with ambient as the main channel."
+        },
+        {
+            "paragraph" : "The campaign’s aim was to educate about and encourage the use of metal cans due to their advantages in key areas like sustainability, convenience, reliability and nutrition."
+        }
+    ],
     "proj_components": [
+            {
+                "name" : "Campaign identity"
+            },
+            {
+                "name" : "Ambient"
+            },
+            {
+                "name" : "Campaign website"
+            },
+            {
+                "name" : "Social media pages"
+            }
+    ],
+    "other_projects": [
         {
-            "name":"Campaign identity"
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html"
         },
         {
-            "name":"Ambient"
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html"
         },
         {
-            "name":"Campaign website"
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
         },
         {
-            "name":"Social media pages"
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html",
+            "current": "current_proj"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html"
         }
     ]
 }

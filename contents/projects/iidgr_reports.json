@@ -1,5 +1,7 @@
 {
     "name": "IIDGR Reports",
+    "prev": "iidgr_branding.html",
+    "next": "clean_air_london.html",
     "images": [
         {
             "image" : "/img/proj1_img1.jpg"
@@ -11,13 +13,73 @@
             "image" : "/img/proj1_img3.jpg"
         }
     ],
-    "description":"IIDGR, part of the De Beers Group of Companies, issues reports to its customers after grading their diamonds. This makes the grading report the brand’s most important piece of communication. Competition, industry standards, technical limitations and feedback from clients, stakeholders and focus groups were taken into account while developing the design solution. Two report designs were developed for use in different circumstances.",
+    "description":[
+        {
+            "paragraph" : "The International Institute of Diamond Grading & Research, part of the De Beers Group of Companies, issues reports to its customers after grading their diamonds."
+        },
+        {
+            "paragraph" : "This makes the grading report the brand’s most important piece of communication."
+        },
+        {
+            "paragraph" : "Competition, industry standards, technical limitations and feedback from clients, stakeholders and focus groups were taken into account while developing the design solution."
+        },
+        {
+            "paragraph" : "Two report designs were developed for use in different circumstances."
+        }
+       ],
     "proj_components": [
         {
             "name":"Diamond grading report"
         },
         {
             "name":"Diamond identification report"
+        }
+    ],
+    "other_projects": [
+        {
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html"
+        },
+        {
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html",
+            "current": "current_proj"
+        },
+        {
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html"
         }
     ]
 }

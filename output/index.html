@@ -12,89 +12,103 @@
 
 			<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-			<link rel="stylesheet" type="text/css" media="screen" href="/css/all-1370472101000.css"> 
+			<link rel="stylesheet" type="text/css" media="screen" href="/css/all-1370789715000.css"> 
     </head>
 
     <body>
-
-<header>
+<div class="contact">
+    <ul>
+        <li><img src="img/email_icon.png"/><span> contact [at] emiltalevdesign.co.uk </span></li>
+        <li><img src="img/phone_icon.png"/><span> +44 (0)7726 150137 </span></li>
+        <li><img src="img/skype_icon.png"/><span> etdesign_london </span></li>
+        <li><img src="img/linkedin_icon.png"/><a href="http://uk.linkedin.com/pub/emil-talev/1a/116/500/" target="_blank"><span> LinkedIn</span></a></li>
+    </ul>
+</div><header>
     <ul class="header">
-        <li><img src="&#x2F;img&#x2F;et_logo_web.png"/></li>
+        <li><a href="index.html"><img src="&#x2F;img&#x2F;et_logo_web.png"/></a></li>
         <li><img src="&#x2F;img&#x2F;et_name_header.png"/></li>
         <li><a href="index.html" class="current" />WORK</a></li>
         <li><a href="about.html" />ABOUT</a></li>
-        <li><a href="" />CONTACT</a></li>
+        <li><a href="#" id="contact" />CONTACT</a></li>
     </ul>
-</header><div class="content"> 
+</header>
+<div class="content"> 
     <div class="gallery_nav">
-        <div class="dark_grey_button" onClick="goto('.page_one',this); return false;"></div>
-        <div class="light_grey_button" onClick="goto('.page_two',this); return false;"></div>
+        <div id="first_page">
+            <div id="one_dark" class="dark_grey_button"></div>
+            <div id="one_light" class="light_grey_button" style="display:none"></div>
+        </div>
+        <div id="second_page">
+            <div id="two_dark" class="dark_grey_button" style="display:none"></div>
+            <div id="two_light" class="light_grey_button"></div>
+        </div>
     </div>
     <div class="pages_wrapper">
         <div class="page_one page_box">
             <ul class="featured">
                     <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr1.jpg" />
-                        <h5><a href="projects&#x2F;iidgr_reports.html">IIDGR Reports</a></h5>
-                        <ul class="featured_categories">
-                                <li>Reports</li>
-                                <li>Branding</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr2.jpg" />
-                        <h5><a href="projects&#x2F;trustees_report.html">Trustees Annual Report</a></h5>
-                        <ul class="featured_categories">
-                                <li>Reports</li>
-                                <li>Corporate Comms</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr3.jpg" />
+                        <figure class="tint"><a href="projects&#x2F;iidgr_branding.html"><img src="&#x2F;img&#x2F;gallery_images_pr3.jpg" /><a></figure>
                         <h5><a href="projects&#x2F;iidgr_branding.html">IIDGR Branding</a></h5>
                         <ul class="featured_categories">
-                                <li>Identity</li>
+                                <li>Identity,</li>
                                 <li>Branding</li>
                         </ul>
                     </li>
                     <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr4.jpg" />
-                        <h5><a href="projects&#x2F;open_can.html">Open Can</a></h5>
+                        <figure class="tint"><a href="projects&#x2F;iidgr_reports.html"><img src="&#x2F;img&#x2F;gallery_images_pr1.jpg" /><a></figure>
+                        <h5><a href="projects&#x2F;iidgr_reports.html">IIDGR Reports</a></h5>
                         <ul class="featured_categories">
-                                <li>Campaign</li>
+                                <li>Reports,</li>
+                                <li>Branding</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <figure class="tint"><a href="projects&#x2F;clean_air_london.html"><img src="&#x2F;img&#x2F;gallery_images_pr10.jpg" /><a></figure>
+                        <h5><a href="projects&#x2F;clean_air_london.html">Clean Air London</a></h5>
+                        <ul class="featured_categories">
+                                <li>Campaign,</li>
                                 <li>Identity</li>
                         </ul>
                     </li>
-            </ul>
-            <ul class="featured">
                     <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr5.jpg" />
+                        <figure class="tint"><a href="projects&#x2F;fs_web_designs.html"><img src="&#x2F;img&#x2F;gallery_images_pr5.jpg" /><a></figure>
                         <h5><a href="projects&#x2F;fs_web_designs.html">Falcon Scott Web Designs</a></h5>
                         <ul class="featured_categories">
                                 <li>Web Design</li>
                         </ul>
                     </li>
+            </ul>
+            <ul class="featured">
                     <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr6.jpg" />
-                        <h5><a href="projects&#x2F;in_the_loupe.html">In the Loupe</a></h5>
+                        <figure class="tint"><a href="projects&#x2F;open_can.html"><img src="&#x2F;img&#x2F;gallery_images_pr4.jpg" /><a></figure>
+                        <h5><a href="projects&#x2F;open_can.html">Open Can</a></h5>
                         <ul class="featured_categories">
-                                <li>Magazine design</li>
+                                <li>Campaign,</li>
+                                <li>Identity</li>
                         </ul>
                     </li>
                     <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr7.jpg" />
-                        <h5><a href="projects&#x2F;kk_animation.html">Krispy Kreme Animation</a></h5>
+                        <figure class="tint"><a href="projects&#x2F;wars_of_fortune.html"><img src="&#x2F;img&#x2F;gallery_images_pr11.jpg" /><a></figure>
+                        <h5><a href="projects&#x2F;wars_of_fortune.html">Wars of Fortune</a></h5>
                         <ul class="featured_categories">
-                                <li>Flash</li>
+                                <li>Mobile app,</li>
                                 <li>Digital</li>
                         </ul>
                     </li>
                     <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr8.jpg" />
-                        <h5><a href="projects&#x2F;diamdel.html">Diamdel</a></h5>
+                        <figure class="tint"><a href="projects&#x2F;db_branding.html"><img src="&#x2F;img&#x2F;gallery_images_pr9.jpg" /><a></figure>
+                        <h5><a href="projects&#x2F;db_branding.html">De Beers Branding</a></h5>
                         <ul class="featured_categories">
-                                <li>Print</li>
+                                <li>Identity,</li>
                                 <li>Branding</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <figure class="tint"><a href="projects&#x2F;trustees_report.html"><img src="&#x2F;img&#x2F;gallery_images_pr2.jpg" /><a></figure>
+                        <h5><a href="projects&#x2F;trustees_report.html">Trustees Annual Report</a></h5>
+                        <ul class="featured_categories">
+                                <li>Reports,</li>
+                                <li>Corporate Comms</li>
                         </ul>
                     </li>
             </ul>
@@ -102,27 +116,26 @@
         <div class="page_two page_box">
             <ul class="featured">
                     <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr9.jpg" />
-                        <h5><a href="projects&#x2F;db_branding.html">De Beers Branding</a></h5>
+                        <figure class="tint"><a href="projects&#x2F;kk_animation.html"><img src="&#x2F;img&#x2F;gallery_images_pr7.jpg" /><a></figure>
+                        <h5><a href="projects&#x2F;kk_animation.html">Krispy Kreme Animation</a></h5>
                         <ul class="featured_categories">
-                                <li>Identity</li>
+                                <li>Flash,</li>
+                                <li>Digital</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <figure class="tint"><a href="projects&#x2F;diamdel.html"><img src="&#x2F;img&#x2F;gallery_images_pr8.jpg" /><a></figure>
+                        <h5><a href="projects&#x2F;diamdel.html">Diamdel</a></h5>
+                        <ul class="featured_categories">
+                                <li>Print,</li>
                                 <li>Branding</li>
                         </ul>
                     </li>
                     <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr10.jpg" />
-                        <h5><a href="projects&#x2F;clean_air_london.html">Clean Air London</a></h5>
+                        <figure class="tint"><a href="projects&#x2F;in_the_loupe.html"><img src="&#x2F;img&#x2F;gallery_images_pr6.jpg" /><a></figure>
+                        <h5><a href="projects&#x2F;in_the_loupe.html">In the Loupe</a></h5>
                         <ul class="featured_categories">
-                                <li>Campaign</li>
-                                <li>Identity</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <img src="&#x2F;img&#x2F;gallery_images_pr11.jpg" />
-                        <h5><a href="projects&#x2F;wars_of_fortune.html">Wars of Fortune</a></h5>
-                        <ul class="featured_categories">
-                                <li>Mobile app</li>
-                                <li>Digital</li>
+                                <li>Magazine design</li>
                         </ul>
                     </li>
             </ul>
@@ -138,8 +151,32 @@
 
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 		    <script>
-                function goto(cl, t) {
-                    $('.pages_wrapper').animate({"left":-($(cl).position().left)}, 400);
+                $(document).ready(function(){
+                    $('#first_page').live("click",function(){
+                        $('.pages_wrapper').animate({"left":-($('.page_one').position().left)}, 400);
+                        $('#one_dark').toggle();
+                        $('#one_light').toggle();
+                        $('#two_dark').toggle();
+                        $('#two_light').toggle();
+                    });
+                    $('#second_page').live("click", function(){
+                        $('.pages_wrapper').animate({"left":-($('.page_two').
+                            position().left)}, 400);
+                        $('#one_dark').toggle();
+                        $('#one_light').toggle();
+                        $('#two_dark').toggle();
+                        $('#two_light').toggle();
+                    });
+                    $('#contact').click(contact);
+                });
+                
+                function contact() {
+                    $('.contact').toggle();
+                    if(!$('.contact').is(':visible')) {
+                        $('#contact').css("color","#959595");
+                    } else {
+                        $('#contact').css("color","black");
+                    }
                 }
             </script>
 		</body>

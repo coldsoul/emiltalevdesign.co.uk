@@ -1,15 +1,25 @@
 {{> header }}
-{{> heading }}
-<div class="content">
+<header>
+    <ul class="header">
+        <li><a href="../index.html"><img src="{{logo}}"/></a></li>
+        <li><img src="{{header_img}}"/></li>
+        <li><a href="index.html" />WORK</a></li>
+        <li><a href="about.html" class="current" />ABOUT</a></li>
+        <li><a href="#" id="contact" />CONTACT</a></li>
+    </ul>
+</header>
+<div class="about_content">
  <div class="about_image">
        <img src="{{ image }}" />
  </div>
  <div class="about_side" />
     <div class="about_name">
-        <h3> ABOUT </h3>
+        <h4> ABOUT EMIL</h4>
     </div>
     <div class="description" />
-        <span> {{ about }} </span>
+        {{#about_text}}
+            <p>{{paragraph}}</p>
+        {{/about_text}}
     </div>
     <div class="expertise">
         <h4> EXPERTISE </h4>
@@ -23,9 +33,10 @@
             <li>{{name}}</li>
         {{/expertise_two}}
         </ul>
+        <div class="clear"></div>
     </div>
     <div class="clients">
-        <h4> CLIENTS </h4>
+        <h4> BRANDS I HAVE WORKED FOR </h4>
         <ul class="ex_one">
         {{#clients_one}}
             <li>{{name}}</li>
@@ -36,6 +47,7 @@
             <li>{{name}}</li>
         {{/clients_two}}
         </ul>
+        <div class="clear"></div>
     </div>
  </div>
 </div>

@@ -12,20 +12,26 @@
 
 			<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-			<link rel="stylesheet" type="text/css" media="screen" href="/css/all-1370472101000.css"> 
+			<link rel="stylesheet" type="text/css" media="screen" href="/css/all-1370789715000.css"> 
     </head>
 
     <body>
-
-<header>
+<div class="contact">
+    <ul>
+        <li><img src="../img/email_icon.png"/><span> contact [at] emiltalevdesign.co.uk </span></li>
+        <li><img src="../img/phone_icon.png"/><span> +44 (0)7726 150137 </span></li>
+        <li><img src="../img/skype_icon.png"/><span> etdesign_london </span></li>
+        <li><img src="../img/linkedin_icon.png"/><a href="http://uk.linkedin.com/pub/emil-talev/1a/116/500/" target="_blank"><span> LinkedIn</span></a></li>
+    </ul>
+</div><header>
     <ul class="header">
-        <li><img src="&#x2F;img&#x2F;et_logo_web.png"/></li>
+        <li><a href="../index.html"><img src="&#x2F;img&#x2F;et_logo_web.png"/></a></li>
         <li><img src="&#x2F;img&#x2F;et_name_header.png"/></li>
         <li><a href="../index.html" />WORK</a></li>
         <li><a href="../about.html" />ABOUT</a></li>
-        <li><a href="" />CONTACT</a></li>
+        <li><a href="#" id="contact" />CONTACT</a></li>
     </ul>
-</header><div class="content">
+</header><div class="about_content">
  <div class="proj_image">
        <img src="&#x2F;img&#x2F;proj9_img1.jpg" />
        <img src="&#x2F;img&#x2F;proj9_img2.jpg" />
@@ -38,9 +44,17 @@
     <div class="proj_name">
         <h3> De Beers Branding </h3>
     </div>
+    <ul class="nav_list">
+        <li><a href="wars_of_fortune.html">PREVIOUS</a></li>
+        <li>|</li>
+        <li><a href="trustees_report.html">NEXT</a></li>
+        <li>|</li>
+        <li><a href="../index.html">BACK TO GALLERY</a></li>
+    </ul>
     <div class="description" />
         <h4> DESCRIPTION </h4>
-        <span> The vision for the De Beers re-branding was for its identity to reflect more closely its core activity as the world’s largest diamond mining company. Working on-site with a brand manager, I had input in all key project areas and was in charge of designing and updating all relevant company collateral and brand guidelines. </span>
+            <p> The vision for the De Beers re-branding was for its identity to reflect more closely its core activity as the world’s largest diamond mining company. </p>
+            <p> Working on-site with a brand manager, I had input in all key project areas and was in charge of designing and updating all relevant company collateral and brand guidelines. </p>
     </div>
     <div class="components">
         <h4> PROJECT COMPONENTS </h4>
@@ -55,10 +69,26 @@
         </ul>
     </div>
     <div class="proj_navigation">
-        <ul>
-            <li>HOME</li>
-            <li> &lt;PREVIOUS </li>
-            <li> NEXT&gt; </li>
+        <h4>OTHER PROJECTS</h4>
+        <ul class="nav_list">
+            <li><a href="wars_of_fortune.html">PREVIOUS</a></li>
+            <li>|</li>
+            <li><a href="trustees_report.html">NEXT</a></li>
+            <li>|</li>
+            <li><a href="../index.html">BACK TO GALLERY</a></li>
+        </ul>
+        <ul class="other_projects">
+                <li class=""><a href="iidgr_branding.html">IIDGR Branding</a></li>
+                <li class=""><a href="iidgr_reports.html">IIDGR Reports</a></li>
+                <li class=""><a href="clean_air_london.html">Clean Air London</a></li>
+                <li class=""><a href="fs_web_designs.html">Falcon Scott Web Designs</a></li>
+                <li class=""><a href="open_can.html">Open Can</a></li>
+                <li class=""><a href="wars_of_fortune.html">Wars of Fortune</a></li>
+                <li class="current_proj"><a href="db_branding.html">De Beers Branding</a></li>
+                <li class=""><a href="trustees_report.html">Trustees Annual Report</a></li>
+                <li class=""><a href="kk_animation.html">Krispy Kreme Animation</a></li>
+                <li class=""><a href="diamdel.html">Diamdel</a></li>
+                <li class=""><a href="in_the_loupe.html">In The Loupe</a></li>
         </ul>
     </div>
  </div>
@@ -69,8 +99,32 @@
 
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 		    <script>
-                function goto(cl, t) {
-                    $('.pages_wrapper').animate({"left":-($(cl).position().left)}, 400);
+                $(document).ready(function(){
+                    $('#first_page').live("click",function(){
+                        $('.pages_wrapper').animate({"left":-($('.page_one').position().left)}, 400);
+                        $('#one_dark').toggle();
+                        $('#one_light').toggle();
+                        $('#two_dark').toggle();
+                        $('#two_light').toggle();
+                    });
+                    $('#second_page').live("click", function(){
+                        $('.pages_wrapper').animate({"left":-($('.page_two').
+                            position().left)}, 400);
+                        $('#one_dark').toggle();
+                        $('#one_light').toggle();
+                        $('#two_dark').toggle();
+                        $('#two_light').toggle();
+                    });
+                    $('#contact').click(contact);
+                });
+                
+                function contact() {
+                    $('.contact').toggle();
+                    if(!$('.contact').is(':visible')) {
+                        $('#contact').css("color","#959595");
+                    } else {
+                        $('#contact').css("color","black");
+                    }
                 }
             </script>
 		</body>

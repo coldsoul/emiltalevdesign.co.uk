@@ -1,16 +1,30 @@
 {{> header }}
-{{> heading }}
+<header>
+    <ul class="header">
+        <li><a href="index.html"><img src="{{logo}}"/></a></li>
+        <li><img src="{{header_img}}"/></li>
+        <li><a href="index.html" class="current" />WORK</a></li>
+        <li><a href="about.html" />ABOUT</a></li>
+        <li><a href="#" id="contact" />CONTACT</a></li>
+    </ul>
+</header>
 <div class="content"> 
     <div class="gallery_nav">
-        <div class="dark_grey_button" onClick="goto('.page_one',this); return false;"></div>
-        <div class="light_grey_button" onClick="goto('.page_two',this); return false;"></div>
+        <div id="first_page">
+            <div id="one_dark" class="dark_grey_button"></div>
+            <div id="one_light" class="light_grey_button" style="display:none"></div>
+        </div>
+        <div id="second_page">
+            <div id="two_dark" class="dark_grey_button" style="display:none"></div>
+            <div id="two_light" class="light_grey_button"></div>
+        </div>
     </div>
     <div class="pages_wrapper">
         <div class="page_one page_box">
             <ul class="featured">
                 {{#featured_one}}
                     <li>
-                        <img src="{{image}}" />
+                        <figure class="tint"><a href="{{project_link}}"><img src="{{image}}" /><a></figure>
                         <h5><a href="{{project_link}}">{{name}}</a></h5>
                         <ul class="featured_categories">
                             {{#categories}}
@@ -23,7 +37,7 @@
             <ul class="featured">
                 {{#featured_two}}
                     <li>
-                        <img src="{{image}}" />
+                        <figure class="tint"><a href="{{project_link}}"><img src="{{image}}" /><a></figure>
                         <h5><a href="{{project_link}}">{{name}}</a></h5>
                         <ul class="featured_categories">
                             {{#categories}}
@@ -38,7 +52,7 @@
             <ul class="featured">
                 {{#featured_three}}
                     <li>
-                        <img src="{{image}}" />
+                        <figure class="tint"><a href="{{project_link}}"><img src="{{image}}" /><a></figure>
                         <h5><a href="{{project_link}}">{{name}}</a></h5>
                         <ul class="featured_categories">
                             {{#categories}}
@@ -51,7 +65,7 @@
             <ul class="featured">
                 {{#featured_four}}
                     <li>
-                        <img src="{{image}}" />
+                        <figure class="tint"><a href="{{project_link}}"><img src="{{image}}" /><a></figure>
                         <h5><a href="{{project_link}}">{{name}}</a></h5>
                         <ul class="featured_categories">
                             {{#categories}}

@@ -6,8 +6,7 @@ html {
 }
 
 body {
-	width: 970px;
-	margin: 1em auto;
+	width: 100%;
 	font-family:Arial,sans-serif;
 }
 
@@ -23,7 +22,39 @@ footer {
 	border-top-width:1px;
 	text-align: center;
 	font-size: 0.75em;
-	color:#e5e5e5;
+	color:#bfbfbf;
+	width:990px;
+	margin:0 auto;
+}
+
+.clear {
+	clear:both;
+}
+
+.contact {
+	display:none;
+	background-color: #eeeeee;
+	min-height:40px;
+	ul {
+		width:970px;
+		margin:0 auto;
+		padding:0;
+		line-height: 40px;
+	}
+	ul li {
+		list-style-type: none;
+		display: inline-block;
+		padding-right:35px;
+		padding-left:35px;
+		a {
+			color:black;
+			line-height: 20px;
+			vertical-align: middle;
+		}
+		span {
+			vertical-align: middle;
+		}
+	}
 }
 
 h1 {
@@ -41,10 +72,16 @@ h5 a {
 .current {
 	color:#000000;
 }
+header {
+	margin-top:40px;
+}
 
 .header {
+	width:970px;
 	margin:0;
-	padding:20px 0 20px 0;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px 10px 20px 10px;
 	list-style-type:none;
 	border-top-color:#e5e5e5;
 	border-top-style:solid;
@@ -93,15 +130,40 @@ h5 a {
 	}
 }
 
+#first_page,#second_page {
+	height:10px;
+	width:20px;
+	display: block;
+}
+#first_page {
+	float:left;
+}
+#second_page {
+	float: right;
+}
+
 .featured {
 	clear:both;
 	margin:0;
 	padding:0;
 	list-style-type:none;
+	.tint {
+		float:left;
+		background-color: #e5e5e5;
+		margin-bottom: 10px;
+	}
+	img {
+		opacity: .5;
+	}
+	img:hover {
+		opacity: 1;
+		cursor: pointer;
+	}
 	li {
 		display:inline-block;
 		padding-left:8px;
 		h5 {
+			clear:both;
 			font-size:16px;
 			padding:0 0 0 10px;
 			margin:15px 0 0 0;
@@ -109,28 +171,40 @@ h5 a {
 			border-left-style:solid;
 			border-left-color:#e5e5e5;
 			border-left-width:1px;
+			line-height: 16px;
 		}
 	}
 	.featured_categories {
-		margin:0 0 15px 0;
+		margin:0 0 10px 0;
 		padding:0 0 0 10px;
 		border-left-style:solid;
 		border-left-color:#e5e5e5;
 		border-left-width:1px;
+		font-size: 16px;
+		line-height: 16px;
 		li {
 			padding:0;
 			border:none;
 			font-size:12px;
-			color:#e5e5e5;
+			color:#959595;
 		}
 	}
 }
 
-.content {
+.content, .about_content {
 	overflow:hidden;
+	width:970px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.about_content {
 	padding-top:30px;
 }
 
+.about_name {
+	padding-left:10px;
+}
 .pages_wrapper {
 	position:relative;
 	left:0;
@@ -155,10 +229,29 @@ h5 a {
 .proj_side {
 	width:240px;
 	float:right;
+	.nav_list {
+		list-style: none;
+		padding:0;
+		margin:0;
+		line-height: 30px;
+		border-bottom-color: #e5e5e5;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+	}
+	.nav_list li {
+		display:inline;
+		padding-left:10px;
+		color:#626262;
+		font-size:9px;
+		font-family: Arial, sans-serif;
+		font-weight: normal;
+	}
 	h3 {
 		font-size: 16px;
 		font-weight: normal;
-		font-family: Arial;
+		font-family: Arial, sans-serif;
+		padding-left:10px;
+		margin:20px 0 20px 0;
 	}
 	.proj_name {
 		line-height: 32px;
@@ -171,44 +264,103 @@ h5 a {
 	}
 
 	.description {
+		h4 {
+			margin:10px 0 10px 0;
+		}
 		h4, span{
 			font-size:12px;
 			font-weight:normal;
-			font-family: Arial;
+			font-family: Arial, sans-serif;
 			color:#959595;
+			padding-left:10px;
 		}
 		border-bottom-color: #e5e5e5;
 		border-bottom-style: solid;
 		border-bottom-width: 1px;
+		
+		p {
+			font-family: Arial, sans-serif;
+			font-size: 12px;
+			color:#959595;
+			padding-left:10px;
+		}
 	}
 
 	.components {
+		h4 {
+			margin:10px 0 10px 0;
+		}
 		h4, li{
 			font-size:12px;
 			font-weight:normal;
-			font-family: Arial;
+			font-family: Arial, sans-serif;
 			color:#959595;
+			padding-left:10px;
 		}
 		ul {
-			padding-left:16px;
+			padding-left:30px;
 		}
 		border-bottom-color: #e5e5e5;
 		border-bottom-style: solid;
 		border-bottom-width: 1px;
+		padding-bottom:30px;
 	}
 
 	.proj_navigation {
-		ul {
+		.nav_list {
 			list-style: none;
 			padding:0;
+			margin:0;
+			line-height: 10px;
+			border-bottom-color: #e5e5e5;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
+			padding:10px 0 10px 0px;
 		}
-		ul li {
+		h4 {
+			border-bottom-color: #e5e5e5;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
+			margin: 10px 0 0 0;
+			font-size: 10px;
+			
+			padding-left:10px;
+			padding-bottom: 10px;
+		}
+
+		h4, li{
+			font-size:12px;
+			font-weight:normal;
+			font-family: Arial, sans-serif;
+			color:#959595;
+			padding-left:10px;
+		}
+		li {
+			font-size:10px;
+		}
+		.nav_list li {
 			display:inline;
 			padding-left:10px;
 			color:#626262;
-			font-size:10px;
-			font-family: Arial;
+			font-size:9px;
+			font-family: Arial, sans-serif;
 			font-weight: normal;
+		}
+		ul.other_projects {
+			margin:0;
+			padding:10px 0 10px 10px;
+			border-bottom-color: #e5e5e5;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
+		}
+		ul.other_projects li{
+			display:block;
+			line-height: 18px;
+			margin:0;
+			padding:0;
+		}
+		.current_proj {
+			font-weight: bold;
 		}
 	}
 }
@@ -221,24 +373,51 @@ h5 a {
 .about_side {
 	width:465px;
 	float:right;
+	font-family: Arial, sans-serif;
+	color: #959595;
+	font-weight: normal;
 
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: #e5e5e5;
 
-	h3 {
-		font-weight: normal;
-		color: #959595;
+	h4 {
+		font-weight: lighter;
+		font-size: 18px;
+		margin:10px 0 10px 0;
 	}
 	
 	ul {
 		width:180px;
+		font-size: 12px;
+		font-weight: normal;
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		li {
+			padding-bottom:5px;
+		}
+	}
+	.description {
+		padding-left:10px;
+		p {
+			font-family: Arial, sans-serif;
+			font-size: 12px;
+			color:#959595;
+		}
 	}
 	
 	.expertise{
 		border-top-style: solid;
 		border-top-width: 1px;
 		border-top-color: #e5e5e5;
+		margin-bottom:20px;
+		padding-left:10px;
+		h4 {
+			font-size: 18px;
+			font-family: Arial, sans-serif;
+			font-weight: lighter;
+		}
 	}
 	
 	.clients {
@@ -246,6 +425,12 @@ h5 a {
 		border-top-width: 1px;
 		border-top-color: #e5e5e5;
 		clear:both;
+		padding-left:10px;
+		h4 {
+			font-size: 18px;
+			font-family: Arial, sans-serif;
+			font-weight: lighter;
+		}
 	}
 
 	.ex_one {

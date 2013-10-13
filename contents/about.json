@@ -1,36 +1,91 @@
 {
     "image" : "img/et_website_client_logos.jpg",
-    "about" : "About text",
-    "expertise_one" : [
+    "about_text" : [
         {
-            "name":"branding"
+            "paragraph" : "I am an all-round creative designer with more than seven years experience across diverse design disciplines in both freelance and in-house roles."
         },
         {
-            "name":"print"
+            "paragraph" : "I have worked with a variety of corporate, luxury, beauty, media, gaming, FMCG and public sector clients. My main specialisms are branding, graphic design and artworking, art direction, digital design (web/mobile/concepts)."
+        },
+        {
+            "paragraph" : "Get in touch for more information or to discuss your design requirements."
+        }
+    ],
+    "expertise_one" : [
+        {
+            "name":"Branding"
+        },
+        {
+            "name":"Identity"
+        },
+        {
+            "name":"Print"
+        },
+        {
+            "name":"Web & Digital"
+        },
+        {
+            "name":"Packaging"
+        },
+        {
+            "name":"Illustration"
         }
     ],
     "expertise_two": [
         {
-            "name":"web"
+            "name":"Art Direction"
         },
         {
-            "name":"digital"
+            "name":"Typography"
+        },
+        {
+            "name":"Advertising"
+        },
+        {
+            "name":"Mobile"
+        },
+        {
+            "name":"Photography"
+        },
+        {
+            "name":"Animation"
         }
     ],
     "clients_one": [
         {
-            "name":"advertising"
+            "name":"De Beers"
         },
         {
-            "name":"typography"
+            "name":"Forevermark"
+        },
+        {
+            "name":"The Diamond Trading Company"
+        },
+        {
+            "name":"Diamdel"
+        },
+        {
+            "name":"Falcon Scott"
+        },
+        {
+            "name":"Omorovicza Cosmetics"
         }
     ],
     "clients_two": [
         {
-            "name": "something"
+            "name": "London Borough of Hounslow"
         },
         {
-            "name":"something else"
+            "name":"Hounslow Homes"
+        },
+        {
+            "name":"IIDGR"
+        },
+        {
+            "name":"World SunCare Products"
+        },
+        {
+            "name":"Wars of Fortune"
         }
     ]
 }

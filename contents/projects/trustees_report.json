@@ -1,5 +1,7 @@
 {
     "name": "Trustees Annual Report",
+    "prev": "db_branding.html",
+    "next": "kk_animation.html",
     "images": [
         {
             "image" : "/img/proj2_img1.jpg"
@@ -15,8 +17,64 @@
             "image" : "/img/proj2_img4.jpg"
         }
     ],
-    "description":"Redesigned the annual report and related documentation for the pension scheme trustees of DTC, the rough diamond distribution arm of De Beers, and the world’s largest supplier of rough diamonds. While working within brand guidelines, the brief was sufficiently open to allow for more creative use of imagery.",
+    "description":[
+        {
+            "paragraph" : "Redesigned the annual report and related documentation for the pension scheme trustees of DTC, the rough diamond distribution arm of De Beers, and the world’s largest supplier of rough diamonds."
+        },
+        {
+            "paragraph" : "While working within brand guidelines, the brief was sufficiently open to allow for more creative use of imagery."
+        }
+    ],
     "proj_components": [
-        
+        {
+            "name" : "Annual report design"
+        }
+    ],
+    "other_projects": [
+        {
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html"
+        },
+        {
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html"
+        },
+        {
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html",
+            "current": "current_proj"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html"
+        }
     ]
 }

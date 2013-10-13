@@ -1,5 +1,7 @@
 {
     "name": "Wars of Fortune",
+    "prev": "open_can.html",
+    "next": "db_branding.html",
     "images": [
         {
             "image" : "/img/proj11_img1.jpg"
@@ -17,7 +19,20 @@
             "image" : "/img/proj11_img5.jpg"
         }
     ],
-    "description":"A self-initiated project, created in a partnership with a developer. Our team of two people conceptualised and created an ambitious mobile game app for Android smartphones and tablets, which is available at the Google Play Store. The game’s genre is MMORPG (Massively Multiplayer Online Role-Playing game) with gameplay based on users interacting with one another. The game is free to download with optional in-game purchases and requires constant internet connection to play.",
+    "description":[
+        {
+            "paragraph" : "A self-initiated project, created in a partnership with a developer."
+        },
+        {
+            "paragraph" : "Our team of two people conceptualised and created an ambitious mobile game app for Android smartphones and tablets, which is available at the Google Play Store."
+        },
+        {
+            "paragraph" : "The game’s genre is MMORPG (Massively Multiplayer Online Role-Playing game) with gameplay based on users interacting with one another."
+        },
+        {
+            "paragraph" : "The game is free to download with optional in-game purchases and requires constant internet connection to play."
+        }
+    ],
         "proj_components": [
         {
             "name":"Design for web & mobile"
@@ -42,6 +57,53 @@
         },
         {
             "name":"Social media content"
+        }
+    ],
+    "other_projects": [
+        {
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html"
+        },
+        {
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html"
+        },
+        {
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html",
+            "current": "current_proj"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html"
         }
     ]
 }

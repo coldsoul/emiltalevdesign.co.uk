@@ -1,5 +1,7 @@
 {
     "name": "Diamdel",
+    "prev": "kk_animation.html",
+    "next": "in_the_loupe.html",
     "images": [
         {
             "image" : "/img/proj8_img1.jpg"
@@ -8,7 +10,14 @@
             "image" : "/img/proj8_img2.jpg"
         }        
     ],
-    "description":"Worked on a range of branding and print projects for Diamdel, the pioneer and world leader in the online auctioning of rough diamonds. The work included projects for the company’s London team and its overseas offices.",
+    "description":[
+        {
+            "paragraph" : "Worked on a range of branding and print projects for Diamdel, the pioneer and world leader in the online auctioning of rough diamonds."
+        },
+        {
+            "paragraph" : "The work included projects for the company’s London team and its overseas offices."
+        }
+    ],
     "proj_components": [
         {
             "name":"Logo"
@@ -30,6 +39,53 @@
         },
         {
             "name":"Other print collateral"
+        }
+    ],
+    "other_projects": [
+        {
+            "name": "IIDGR Branding",
+            "link": "iidgr_branding.html"
+        },
+        {
+            "name": "IIDGR Reports",
+            "link": "iidgr_reports.html"
+        },
+        {
+            "name": "Clean Air London",
+            "link": "clean_air_london.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Open Can",
+            "link": "open_can.html"
+        },
+        {
+            "name": "Wars of Fortune",
+            "link": "wars_of_fortune.html"
+        },
+        {
+            "name": "De Beers Branding",
+            "link": "db_branding.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
+        },
+        {
+            "name": "Krispy Kreme Animation",
+            "link": "kk_animation.html"
+        },
+        {
+            "name": "Diamdel",
+            "link": "diamdel.html",
+            "current": "current_proj"
+        },
+        {
+            "name": "In The Loupe",
+            "link": "in_the_loupe.html"
         }
     ]
 }
