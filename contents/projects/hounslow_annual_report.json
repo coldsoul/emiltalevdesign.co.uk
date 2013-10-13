@@ -1,39 +1,37 @@
 {
-    "name": "IIDGR Reports",
-    "prev": "iidgr_branding.html",
-    "next": "clean_air_london.html",
+    "name": "HH Annual Report",
+    "prev": "omorovicza_digital_campaigns.html",
+    "next": "wars_of_fortune.html",
     "images": [
         {
-            "image" : "/img/proj1_img1.jpg"
+            "image" : "/img/proj12_img1.jpg"
         },
         {
-            "image" : "/img/proj1_img2.jpg"
-        }
-        ,{
-            "image" : "/img/proj1_img3.jpg"
+            "image" : "/img/proj12_img2.jpg"
+        },
+        {
+            "image" : "/img/proj12_img3.jpg"
         }
     ],
     "description":[
         {
-            "paragraph" : "The International Institute of Diamond Grading & Research, part of the De Beers Group of Companies, issues reports to its customers after grading their diamonds."
+            "paragraph" : "Annual report design for Hounslow Homes, a housing organisation that manages 16,500 properties for the London Borough of Hounslow."
         },
         {
-            "paragraph" : "This makes the grading report the brand’s most important piece of communication."
+            "paragraph" : "Apart from presenting the company's results, the report's primary objective was to show the main focus of Hounslow Homes to be the well-being of its residents and staff in a challenging time of public sector cuts and welfare reforms."
         },
         {
-            "paragraph" : "Competition, industry standards, technical limitations and feedback from clients, stakeholders and focus groups were taken into account while developing the design solution."
+            "paragraph" : "Another aim was to project and maintain an efficient and professional company image."
         },
         {
-            "paragraph" : "Two report designs were developed for use in different circumstances."
+            "paragraph" : "The design reflects these aims with its focus on imagery of residents and staff, and with its clean, uncluttered layouts."
         }
-       ],
+
+    ],
     "proj_components": [
-        {
-            "name":"Diamond grading report"
-        },
-        {
-            "name":"Diamond identification report"
-        }
+            {
+                "name" : "Annual report"
+            }
     ],
     "other_projects": [
         {
@@ -42,8 +40,7 @@
         },
         {
             "name": "IIDGR Reports",
-            "link": "iidgr_reports.html",
-            "current" : "current_proj"
+            "link": "iidgr_reports.html"
         },
         {
             "name": "Clean Air London",
@@ -55,7 +52,8 @@
         },
         {
             "name": "HH Annual Report",
-            "link": "hounslow_annual_report.html"
+            "link": "hounslow_annual_report.html",
+            "current" : "current_proj"
         },
         {
             "name": "Wars of Fortune",

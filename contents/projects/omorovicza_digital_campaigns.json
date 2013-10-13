@@ -1,39 +1,45 @@
 {
-    "name": "IIDGR Reports",
-    "prev": "iidgr_branding.html",
-    "next": "clean_air_london.html",
+    "name": "Omorovicza Campaigns",
+    "prev": "clean_air_london.html",
+    "next": "hounslow_annual_report.html",
     "images": [
         {
-            "image" : "/img/proj1_img1.jpg"
+            "image" : "/img/proj13_img1.jpg"
         },
         {
-            "image" : "/img/proj1_img2.jpg"
-        }
-        ,{
-            "image" : "/img/proj1_img3.jpg"
+            "image" : "/img/proj13_img2.jpg"
+        },
+        {
+            "image" : "/img/proj13_img3.jpg"
+        },
+        {
+            "image" : "/img/proj13_img4.jpg"
         }
     ],
     "description":[
         {
-            "paragraph" : "The International Institute of Diamond Grading & Research, part of the De Beers Group of Companies, issues reports to its customers after grading their diamonds."
+            "paragraph" : "Omorovicza is a fast-growing premium international beauty brand, specialising in mineral cosmetics. It offers a range of luxury skin care products from the Hungarian 'Spa Capital' Budapest."
         },
         {
-            "paragraph" : "This makes the grading report the brand’s most important piece of communication."
-        },
-        {
-            "paragraph" : "Competition, industry standards, technical limitations and feedback from clients, stakeholders and focus groups were taken into account while developing the design solution."
-        },
-        {
-            "paragraph" : "Two report designs were developed for use in different circumstances."
+            "paragraph" : "Work includes designing digital campaigns for product launches, sales events, partner and affiliate websites, as well as occasional offline projects."
         }
-       ],
+    ],
     "proj_components": [
-        {
-            "name":"Diamond grading report"
-        },
-        {
-            "name":"Diamond identification report"
-        }
+            {
+                "name" : "Digital campaign assets"
+            },
+            {
+                "name" : "Banner ads"
+            },
+            {
+                "name" : "Social media visuals"
+            },
+            {
+                "name" : "Magazine ads"
+            },
+	        {
+		        "name" : "Point-of-sale"
+            }
     ],
     "other_projects": [
         {
@@ -42,8 +48,7 @@
         },
         {
             "name": "IIDGR Reports",
-            "link": "iidgr_reports.html",
-            "current" : "current_proj"
+            "link": "iidgr_reports.html"
         },
         {
             "name": "Clean Air London",
@@ -51,7 +56,8 @@
         },
         {
             "name": "Omorovicza Campaigns",
-            "link": "omorovicza_digital_campaigns.html"
+            "link": "omorovicza_digital_campaigns.html",
+            "current" : "current_proj"
         },
         {
             "name": "HH Annual Report",

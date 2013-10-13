@@ -40,29 +40,32 @@
             "project_link":"projects/clean_air_london.html"
         },
         {
-            "name": "Falcon Scott Web Designs",
-            "image": "/img/gallery_images_pr5.jpg",
+            "name": "Omorovicza Campaigns",
+            "image": "/img/gallery_images_pr13.jpg",
             "categories": [
                 {
-                    "name":"Web Design"
+                    "name":"Digital Campaigns,"
+                },
+                {
+                    "name":"Banners"
                 }
             ],
-            "project_link":"projects/fs_web_designs.html"
+            "project_link":"projects/omorovicza_digital_campaigns.html"
         }
     ],
     "featured_two": [
         {
-            "name": "Open Can",
-            "image": "/img/gallery_images_pr4.jpg",
+            "name": "HH Annual Report",
+            "image": "/img/gallery_images_pr12.jpg",
             "categories": [
                 {
-                    "name":"Campaign,"
+                    "name":"Reports,"
                 },
                 {
-                    "name":"Identity"
+                    "name":"Corporate Comms"
                 }
             ],
-            "project_link":"projects/open_can.html"
+            "project_link":"projects/hounslow_annual_report.html"
         },  
         {
             "name": "Wars of Fortune",
@@ -89,20 +92,20 @@
                 }
             ],
             "project_link":"projects/db_branding.html"
-        },      
+        },   
         {
-            "name": "Trustees Annual Report",
-            "image": "/img/gallery_images_pr2.jpg",
+            "name": "Open Can",
+            "image": "/img/gallery_images_pr4.jpg",
             "categories": [
                 {
-                    "name":"Reports,"
+                    "name":"Campaign,"
                 },
                 {
-                    "name":"Corporate Comms"
+                    "name":"Identity"
                 }
             ],
-            "project_link":"projects/trustees_report.html"
-        }
+            "project_link":"projects/open_can.html"
+        }   
     ],
     "featured_three": [
         {
@@ -140,6 +143,32 @@
                 }
             ],
             "project_link":"projects/in_the_loupe.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "image": "/img/gallery_images_pr5.jpg",
+            "categories": [
+                {
+                    "name":"Web Design"
+                }
+            ],
+            "project_link":"projects/fs_web_designs.html"
+        }
+
+    ],
+    "featured_four": [
+        {
+            "name": "Trustees Annual Report",
+            "image": "/img/gallery_images_pr2.jpg",
+            "categories": [
+                {
+                    "name":"Reports,"
+                },
+                {
+                    "name":"Corporate Comms"
+                }
+            ],
+            "project_link":"projects/trustees_report.html"
         }
     ]
 }

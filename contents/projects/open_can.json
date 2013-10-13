@@ -1,7 +1,7 @@
 {
     "name": "Open Can",
-    "prev": "fs_web_designs.html",
-    "next": "wars_of_fortune.html",
+    "prev": "db_branding.html",
+    "next": "kk_animation.html",
     "images": [
         {
             "image" : "/img/proj4_img1.jpg"
@@ -52,13 +52,12 @@
             "link": "clean_air_london.html"
         },
         {
-            "name": "Falcon Scott Web Designs",
-            "link": "fs_web_designs.html"
+            "name": "Omorovicza Campaigns",
+            "link": "omorovicza_digital_campaigns.html"
         },
         {
-            "name": "Open Can",
-            "link": "open_can.html",
-            "current": "current_proj"
+            "name": "HH Annual Report",
+            "link": "hounslow_annual_report.html"
         },
         {
             "name": "Wars of Fortune",
@@ -69,8 +68,9 @@
             "link": "db_branding.html"
         },
         {
-            "name": "Trustees Annual Report",
-            "link": "trustees_report.html"
+            "name": "Open Can",
+            "link": "open_can.html",
+            "current" : "current_proj"
         },
         {
             "name": "Krispy Kreme Animation",
@@ -83,6 +83,14 @@
         {
             "name": "In The Loupe",
             "link": "in_the_loupe.html"
+        },
+        {
+            "name": "Falcon Scott Web Designs",
+            "link": "fs_web_designs.html"
+        },
+        {
+            "name": "Trustees Annual Report",
+            "link": "trustees_report.html"
         }
     ]
 }
